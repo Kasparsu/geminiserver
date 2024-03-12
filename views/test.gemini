@@ -1,0 +1,7 @@
+{% include('partials/nav.gemini') %}
+
+{% if name=='Kaspar' %}
+## hello owner
+{% else %}
+## hello noob
+{% endif %}

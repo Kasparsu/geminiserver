@@ -1,0 +1,11 @@
+{% if not req.session.username %}
+=> /login 🔓Recover account
+=> /register/username 🗃️ Sign up
+{% else %}
+=> /yarn 🕸️My Yarn
+=> /latest 🐣Fresh Yarn
+=> /top 🐓Top Yarn
+=> /string 🖊️Write a string
+
+{% endif %}
+{{var}}
